@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://yet.to.be.added",
   "author": "quantum-adrenaline-1",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@angular/cli": "11.2.18"
+  }
 }
