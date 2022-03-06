@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This project is created to deploy and serve Angular application with Nginx server",
   "main": "index.js",
-  "repository": "https://yet.to.be.added",
+  "repository": "https://github.com/Angular-Frontend-Avengers/frontend-app-deployment-with-nginx.git",
   "author": "quantum-adrenaline-1",
   "license": "MIT",
   "dependencies": {
