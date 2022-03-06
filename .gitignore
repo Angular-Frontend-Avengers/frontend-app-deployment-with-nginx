@@ -1,2 +1,53 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# node_modules from root of yarn workspace
 node_modules/
-*/node_modules/
+
+# .gitignore inside the Angular application folder
+ang-app-for-nginx-deployment/.gitignore
+
+# compiled output
+ang-app-for-nginx-deployment/dist
+ang-app-for-nginx-deployment/tmp
+ang-app-for-nginx-deployment/out-tsc
+
+# Only exists if Bazel was run
+ang-app-for-nginx-deployment/bazel-out
+
+# dependencies
+ang-app-for-nginx-deployment/node_modules
+
+# profiling files
+ang-app-for-nginx-deployment/chrome-profiler-events*.json
+ang-app-for-nginx-deployment/speed-measure-plugin*.json
+
+# IDEs and editors
+ang-app-for-nginx-deployment/.idea
+ang-app-for-nginx-deployment/.project
+ang-app-for-nginx-deployment/.classpath
+ang-app-for-nginx-deployment/.c9/
+ang-app-for-nginx-deployment/*.launch
+ang-app-for-nginx-deployment/.settings/
+ang-app-for-nginx-deployment/*.sublime-workspace
+
+# IDE - VSCode
+ang-app-for-nginx-deployment/.vscode/*
+ang-app-for-nginx-deployment/!.vscode/settings.json
+ang-app-for-nginx-deployment/!.vscode/tasks.json
+ang-app-for-nginx-deployment/!.vscode/launch.json
+ang-app-for-nginx-deployment/!.vscode/extensions.json
+ang-app-for-nginx-deployment/.history/*
+
+# misc
+ang-app-for-nginx-deployment/.sass-cache
+ang-app-for-nginx-deployment/connect.lock
+ang-app-for-nginx-deployment/coverage
+ang-app-for-nginx-deployment/libpeerconnection.log
+ang-app-for-nginx-deployment/npm-debug.log
+ang-app-for-nginx-deployment/yarn-error.log
+ang-app-for-nginx-deployment/testem.log
+ang-app-for-nginx-deployment/typings
+
+# System Files
+ang-app-for-nginx-deployment/.DS_Store
+ang-app-for-nginx-deployment/Thumbs.db
